@@ -20,6 +20,12 @@ body {
   background-color: #2e2c39;
 }
 
+.hello-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .hello-text {
   color: #ffffff;
   font-family: Furore;
@@ -45,6 +51,20 @@ body {
   height: 15px;
   border-radius: 15px;
   animation: wheel 2s ease infinite;
+}
+
+.type-cursor {
+  font-family: Furore;
+  font-size: 50px;
+  color: #fff;
+  animation: blink 0.4s ease infinite;
+  opacity: 0;
+}
+
+@keyframes blink {
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes wheel {
@@ -99,8 +119,8 @@ body {
 }
 
 .skills-box:hover {
-  animation: rotate-block 2s ease-in;
-  -webkit-animation: rotate-block-web 2s ease-in;
+  animation: rotate-block 2s ease-out;
+  -webkit-animation: rotate-block-web 2s ease-out;
 }
 
 @-webkit-keyframes rotate-block-web {

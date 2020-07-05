@@ -1,16 +1,19 @@
 <html>
     <head>
         <link rel="stylesheet" href="/css/index.css">
+        <script src="../js/hello-animate.js"></script>
     </head>
     <body>
         <header>
             <div class="hello-screen">
-                
-                <div class="hello-text">Привет</div>
+            <div class="hello-wrapper">
+                <div id="text" class="hello-text"></div>
+                <span class="type-cursor">|</span>
+                </div>
                 <div class="mouse">
                     <div class="wheel"></div>
                 </div>
-                
+            
             </div>
             <div class="skills-block">
                 <div class="title-text">
