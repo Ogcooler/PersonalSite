@@ -14,7 +14,7 @@
             </div>
             <div class="skills-block">
                 <div class="title-text">
-                    Мои навыки
+                    Мои навыки1
                 </div>
                 <div class="skills-boxes">
                     <div class="skills-container">
@@ -158,7 +158,7 @@
             </div>
             <div class="form-block">
                 <div class="title-text">Заказать сайт</div>
-                <form action="../Models/Model.php">
+                <form class="contact-form" action="../Models/Model.php">
                     <input placeholder="Ваше имя" type="text" name="name">
                     <input placeholder="Тема сообщения" type="text" name="topic"></br>
                     <input placeholder="Email" type="text" name="email">
